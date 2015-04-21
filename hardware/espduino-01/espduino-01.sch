@@ -5660,16 +5660,6 @@ Metric Code Size 5664</description>
 <wire x1="3.3" y1="-5.1" x2="-3.25" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="-3.25" y1="-5.1" x2="-3.8" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="-3.8" y1="-5.1" x2="-3.8" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="0" x2="-3.8" y2="0.3" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="0.3" x2="-4" y2="0.5" width="0.127" layer="21" curve="90"/>
-<wire x1="-4" y1="0.5" x2="-3.8" y2="0.7" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="0.7" x2="-3.5" y2="0.4" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.5" y1="0.4" x2="-3.5" y2="0" width="0.127" layer="21"/>
-<wire x1="3.8" y1="0" x2="3.8" y2="0.3" width="0.127" layer="21"/>
-<wire x1="3.8" y1="0.3" x2="4" y2="0.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="4" y1="0.5" x2="3.8" y2="0.7" width="0.127" layer="21"/>
-<wire x1="3.8" y1="0.7" x2="3.5" y2="0.4" width="0.127" layer="21" curve="90"/>
-<wire x1="3.5" y1="0.4" x2="3.5" y2="0" width="0.127" layer="21"/>
 <smd name="P$1" x="-0.8" y="-1.7" dx="0.6" dy="1.35" layer="1"/>
 <smd name="P$2" x="0.8" y="-1.7" dx="0.6" dy="1.35" layer="1"/>
 <smd name="D+" x="0" y="-4.375" dx="0.4" dy="1.25" layer="1"/>
