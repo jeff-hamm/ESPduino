@@ -1,5 +1,26 @@
 Row {
-	espduino
-	espduino
-	espduino
+	Col {
+		espduino
+		espduino
+	}
+	Col {
+		espduino
+		espduino
+	}	
+	Col {
+		espduino
+		espduino
+	}	
+	Col {
+		espduino
+		espduino
+	}	
+	Col {
+		espduino
+		espduino
+	}	
+	Col {
+		espduino
+		espduino
+	}	
 }

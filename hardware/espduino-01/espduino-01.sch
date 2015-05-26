@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5650,11 +5650,9 @@ Metric Code Size 5664</description>
 <wire x1="2.54" y1="2.54" x2="-0.254" y2="2.54" width="0.127" layer="21"/>
 </package>
 <package name="MICRO-USB-A01SB141B1">
-<wire x1="-3.8" y1="0" x2="-3.5" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="0" x2="-3.25" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="0" x2="-3.25" y2="0" width="0.127" layer="21"/>
 <wire x1="-3.25" y1="0" x2="3.3" y2="0" width="0.127" layer="21"/>
-<wire x1="3.3" y1="0" x2="3.5" y2="0" width="0.127" layer="21"/>
-<wire x1="3.5" y1="0" x2="3.8" y2="0" width="0.127" layer="21"/>
+<wire x1="3.3" y1="0" x2="3.8" y2="0" width="0.127" layer="21"/>
 <wire x1="3.8" y1="0" x2="3.8" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="3.8" y1="-5.1" x2="3.3" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="3.3" y1="-5.1" x2="-3.25" y2="-5.1" width="0.127" layer="21"/>
@@ -5667,24 +5665,50 @@ Metric Code Size 5664</description>
 <smd name="GND" x="-1.3" y="-4.375" dx="0.4" dy="1.25" layer="1"/>
 <smd name="D-" x="0.65" y="-4.375" dx="0.4" dy="1.25" layer="1"/>
 <smd name="VCC" x="1.3" y="-4.375" dx="0.4" dy="1.25" layer="1"/>
-<pad name="P$8" x="-2.425" y="-4.4" drill="0.8"/>
-<pad name="P$9" x="2.425" y="-4.4" drill="0.8"/>
-<pad name="P$10" x="-3.6" y="-2" drill="0.5" diameter="1.1" shape="long" rot="R90"/>
-<wire x1="-3.6" y1="-1.35" x2="-3.35" y2="-1.6" width="0" layer="20" curve="-90"/>
-<wire x1="-3.35" y1="-1.6" x2="-3.35" y2="-2.4" width="0" layer="20"/>
-<wire x1="-3.35" y1="-2.4" x2="-3.6" y2="-2.65" width="0" layer="20" curve="-90"/>
-<wire x1="-3.6" y1="-2.65" x2="-3.85" y2="-2.4" width="0" layer="20" curve="-90"/>
-<wire x1="-3.85" y1="-2.4" x2="-3.85" y2="-1.6" width="0" layer="20"/>
-<wire x1="-3.85" y1="-1.6" x2="-3.6" y2="-1.35" width="0" layer="20" curve="-90"/>
-<pad name="P$12" x="3.6" y="-2" drill="0.5" diameter="1.1" shape="long" rot="R90"/>
-<wire x1="3.6" y1="-1.35" x2="3.85" y2="-1.6" width="0" layer="20" curve="-90"/>
-<wire x1="3.85" y1="-1.6" x2="3.85" y2="-2.4" width="0" layer="20"/>
-<wire x1="3.85" y1="-2.4" x2="3.6" y2="-2.65" width="0" layer="20" curve="-90"/>
-<wire x1="3.6" y1="-2.65" x2="3.35" y2="-2.4" width="0" layer="20" curve="-90"/>
-<wire x1="3.35" y1="-2.4" x2="3.35" y2="-1.6" width="0" layer="20"/>
-<wire x1="3.35" y1="-1.6" x2="3.6" y2="-1.35" width="0" layer="20" curve="-90"/>
+<pad name="P$8" x="-3.25" y="-4.4" drill="0.8" diameter="1.3"/>
+<pad name="P$9" x="3.25" y="-4.4" drill="0.8" diameter="1.3"/>
+<pad name="P$10" x="-3.6" y="-2" drill="0.9" diameter="1.1" shape="long" rot="R90"/>
+<wire x1="-3.6" y1="-1.35" x2="-3.35" y2="-1.6" width="0" layer="46" curve="-90"/>
+<wire x1="-3.35" y1="-1.6" x2="-3.35" y2="-2.4" width="0" layer="46"/>
+<wire x1="-3.35" y1="-2.4" x2="-3.6" y2="-2.65" width="0" layer="46" curve="-90"/>
+<wire x1="-3.6" y1="-2.65" x2="-3.85" y2="-2.4" width="0" layer="46" curve="-90"/>
+<wire x1="-3.85" y1="-2.4" x2="-3.85" y2="-1.6" width="0" layer="46"/>
+<wire x1="-3.85" y1="-1.6" x2="-3.6" y2="-1.35" width="0" layer="46" curve="-90"/>
+<pad name="P$12" x="3.6" y="-2" drill="0.9" diameter="1.1" shape="long" rot="R90"/>
+<wire x1="3.6" y1="-1.35" x2="3.85" y2="-1.6" width="0" layer="46" curve="-90"/>
+<wire x1="3.85" y1="-1.6" x2="3.85" y2="-2.4" width="0" layer="46"/>
+<wire x1="3.85" y1="-2.4" x2="3.6" y2="-2.65" width="0" layer="46" curve="-90"/>
+<wire x1="3.6" y1="-2.65" x2="3.35" y2="-2.4" width="0" layer="46" curve="-90"/>
+<wire x1="3.35" y1="-2.4" x2="3.35" y2="-1.6" width="0" layer="46"/>
+<wire x1="3.35" y1="-1.6" x2="3.6" y2="-1.35" width="0" layer="46" curve="-90"/>
 <wire x1="-3.25" y1="0" x2="-3.25" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="3.3" y1="0" x2="3.3" y2="-5.1" width="0.127" layer="21"/>
+<polygon width="0.05" layer="31">
+<vertex x="-4.1525" y="-2.5"/>
+<vertex x="-4.1525" y="-1.45" curve="-90"/>
+<vertex x="-3.6025" y="-0.9" curve="-94.978998"/>
+<vertex x="-3.0525" y="-1.5"/>
+<vertex x="-3.0525" y="-2.59" curve="-94.322318"/>
+<vertex x="-3.6025" y="-3.1" curve="-86.333873"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="3.0375" y="-2.5"/>
+<vertex x="3.0375" y="-1.45" curve="-90"/>
+<vertex x="3.5875" y="-0.9" curve="-94.978998"/>
+<vertex x="4.1375" y="-1.5"/>
+<vertex x="4.1375" y="-2.59" curve="-94.322318"/>
+<vertex x="3.5875" y="-3.1" curve="-86.333873"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-2.575" y="-4.4" curve="-184.242193"/>
+<vertex x="-3.925" y="-4.4" curve="-184.242193"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="3.9264" y="-4.4" curve="-184.242193"/>
+<vertex x="2.5764" y="-4.4" curve="-184.242193"/>
+</polygon>
+<hole x="-1.8" y="-3.5" drill="0.7"/>
+<hole x="1.8" y="-3.5" drill="0.7"/>
 </package>
 <package name="ESP8266-01-MIN">
 <pad name="GND" x="-3.81" y="1.27" drill="1" shape="square"/>
@@ -5709,6 +5733,11 @@ Metric Code Size 5664</description>
 <wire x1="-0.2286" y1="1.7018" x2="0.2032" y2="1.7018" width="0.127" layer="21" curve="-109.564814"/>
 <wire x1="-0.4318" y1="1.8796" x2="0.381" y2="1.8796" width="0.127" layer="21" curve="-109.564814"/>
 <wire x1="-0.635" y1="2.0574" x2="0.5842" y2="2.0574" width="0.127" layer="21" curve="-109.564814"/>
+</package>
+<package name="M1_6MOUNTING_HOLE">
+<pad name="P$1" x="0" y="0" drill="1.75" diameter="3.1"/>
+<circle x="0" y="0" radius="2" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="1.61245" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5742,6 +5771,15 @@ Metric Code Size 5664</description>
 <pin name="VBUS" x="-5.08" y="-5.08" visible="pad" length="short"/>
 <pin name="GND" x="-5.08" y="5.08" visible="pad" length="short"/>
 <pin name="USBID" x="-5.08" y="2.54" visible="pad" length="short"/>
+</symbol>
+<symbol name="PINHD1">
+<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.4064" layer="94"/>
+<text x="-3.81" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5810,6 +5848,21 @@ Metric Code Size 5664</description>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="USBID" pad="ID"/>
 <connect gate="G$1" pin="VBUS" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOUNTING-HOLE">
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="M1.6" package="M1_6MOUNTING_HOLE">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6372,6 +6425,10 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C2" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="U2" library="jumper-parts" deviceset="USB-AB" device=""/>
+<part name="U$2" library="jumper-parts" deviceset="MOUNTING-HOLE" device="M1.6"/>
+<part name="U$3" library="jumper-parts" deviceset="MOUNTING-HOLE" device="M1.6"/>
+<part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6427,6 +6484,10 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="GND8" gate="1" x="48.26" y="7.62"/>
 <instance part="C2" gate="G$1" x="48.26" y="15.24"/>
 <instance part="U2" gate="G$1" x="20.32" y="58.42" rot="R180"/>
+<instance part="U$2" gate="G$1" x="-2.54" y="76.2"/>
+<instance part="U$3" gate="G$1" x="-2.54" y="63.5"/>
+<instance part="GND10" gate="1" x="-5.08" y="66.04" rot="R270"/>
+<instance part="GND12" gate="1" x="-5.08" y="78.74" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6527,6 +6588,14 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="CTS" class="0">

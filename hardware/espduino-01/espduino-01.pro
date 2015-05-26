@@ -1,25 +1,27 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/jhamm/Dropbox/Projects/esp8266/projects/hardware/espduino/espduino-01-v2.brd
+Job           : C:/Projects/espduino/hardware/espduino-01/espduino-01.brd
 
-Start at      : 02:33:45 (4/21/2015)
-End at        : 02:33:46 (4/21/2015)
-Elapsed time  : 00:00:00
+Start at      : 17:09:10 (4/22/2015)
+End at        : 17:09:34 (4/22/2015)
+Elapsed time  : 00:00:22
 
-Signals       :    21   RoutingGrid: 25 mil  Layers: 2
-Connections   :    47   predefined:  46 ( 21 Vias )
+Signals       :    22   RoutingGrid: 4.5 mil  Layers: 2
+Connections   :    88   predefined:  46 ( 19 Vias )
 
-Router memory :   8448
+Router memory :   214800
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
+Job has been interrupted!
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0
-max. Level        :         0         0         0         0         0
-max. Total        :         0         0         0         0         0
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Routed            :         1         1         1         1         1
-Vias              :         2         0         0         0         0
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Time per pass     :  00:00:12  00:00:00  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01  00:00:00  00:00:01  00:00:01  00:00:01  00:00:01  00:00:00  00:00:01
+Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Final             : 100.0% finished
+Routed            :         0         0        41        41        41        41        41        41        41        41        41        41        41        41
+Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Resolution        :    52.3 %    52.3 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %    98.9 %
+
+Final             : 97.9% finished

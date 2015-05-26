@@ -1,0 +1,6 @@
+[submodule "submodules/gerbmerge-patched"]
+	path = submodules/gerbmerge-patched
+	url = https://github.com/space-age-robotics/gerbmerge-patched.git
+[submodule "submodules/eagle-automation"]
+	path = submodules/eagle-automation
+	url = https://github.com/avian2/eagle-automation

@@ -1,0 +1,7 @@
+(gerbv-file-version! "2.0A")
+(define-layer! 3 (cons 'filename "C:/Projects/espduino/hardware/espduino-12/gerber/panel.GML")(cons 'visible #t)(cons 'color #(65535 50629 13107)))
+(define-layer! 2 (cons 'filename "C:/Projects/espduino/hardware/espduino-12/gerber/v-cut-comments.GML")(cons 'visible #t)(cons 'color #(54741 65021 13107)))
+(define-layer! 1 (cons 'filename "C:/Projects/espduino/hardware/espduino-12/gerber/panel.sco")(cons 'visible #t)(cons 'color #(0 50115 50115)))
+(define-layer! 0 (cons 'filename "C:/Projects/espduino/hardware/espduino-12/gerber/panel.oln")(cons 'visible #t)(cons 'color #(30069 62194 26471)))
+(define-layer! -1 (cons 'filename "C:/Projects/espduino/hardware/espduino-12/gerber")(cons 'visible #f)(cons 'color #(0 0 0)))
+(set-render-type! 2)

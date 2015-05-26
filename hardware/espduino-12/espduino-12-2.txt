@@ -1,0 +1,27 @@
+Partlist exported from C:/Projects/espduino/hardware/espduino-12/espduino-12-2.sch at 5/25/2015 5:21:10 PM
+
+Part       Value                      Device                     Package                Description                                                                                                   PROD_ID   
+C1         10uF                       C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+C2         10uF                       C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+C3         47pF                       C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+C4         47pF                       C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+C5         0.1uF                      C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+C6         0.1uf                      C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+C7         0.1uf                      C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+C8         0.1uf                      C-USC0603                  C0603                  CAPACITOR, American symbol                                                                                              
+D2                                    DIODESOT23_REFLOW          SOT23-R                Diode                                                                                                                   
+ESP8266-12 ESP8266-12ESP8266-BREAKOUT ESP8266-12ESP8266-BREAKOUT ESP8266-12-EXT-HEADERS ESP8266 Wifi module 12                                                                                                  
+GND        PINHD1                     PINHD1                     PINHD1                                                                                                                                         
+LM1117                                V_REG_LM1117SOT223         SOT223                 Voltage Regulator LM1117                                                                                      VREG-08170
+R1         27                         R-US_R0603                 R0603                  RESISTOR, American symbol                                                                                               
+R2         27                         R-US_R0603                 R0603                  RESISTOR, American symbol                                                                                               
+R3         4.7k                       R-US_R0603                 R0603                  RESISTOR, American symbol                                                                                               
+R4         4.7k                       R-US_R0603                 R0603                  RESISTOR, American symbol                                                                                               
+R5         4.7k                       R-US_R0603                 R0603                  RESISTOR, American symbol                                                                                               
+R6         1k                         R-US_R0603                 R0603                  RESISTOR, American symbol                                                                                               
+R7         100                        R-US_R0603                 R0603                  RESISTOR, American symbol                                                                                               
+T1         BJT-TRANSISTOR-PNPREFLOW   BJT-TRANSISTOR-PNPREFLOW   SOT23-R                PNP Darlington Transistor                                                                                               
+U1         FT231XS                    FT231XS                    SSOP20_L               FTDI FT231X Full Speed USB to Full-handshake UART                                                                       
+U2                                    USB-AB                     MICRO-USB-A01SB141B1   This is a USB AB connector that is compatible with USB OTG. i.e. this connector can serve as a host or device           
+VIN        PINHD1                     PINHD1                     PINHD1                                                                                                                                         
+VUSB                                  SJCUTTABLE                 SJ-CUTTABLE            SMD solder JUMPER                                                                                                       

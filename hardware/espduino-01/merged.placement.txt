@@ -1,0 +1,12 @@
+espduino 0.100 0.100
+espduino 0.100 1.663
+espduino 0.743 0.100
+espduino 0.743 1.663
+espduino 1.387 0.100
+espduino 1.387 1.663
+espduino 2.030 0.100
+espduino 2.030 1.663
+espduino 2.673 0.100
+espduino 2.673 1.663
+espduino 3.316 0.100
+espduino 3.316 1.663
